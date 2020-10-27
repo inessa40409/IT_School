@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Трехколоночный макет</title>
+  <style type="text/css">
+   body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #D7E1F2; /* Цвет фона */
+    color: #ffe; /* Цвет текста */
+   }
+   a { color: #008BCE; /* Цвет ссылок */ }
+   #container {
+    width: 500px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: #FCE600; /* Цвет колонок */
+   }
+   #header { 
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона шапки */
+   }
+   #nav, #aside {
+    float: left; width: 110px; padding: 5px;
+   }
+   #content {
+    background: #54B948;
+    margin: 0 120px; /* Ширина колонок */
+    padding: 10px;
+   }
+   #aside {
+    float: right; color: #000;
+   }
+   h2 { margin: 0 0 1em; }
+   #footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #D71920; /* Цвет фона подвала */
+   }
+  </style>
+ </head>
+ <body>
+  <div id="container">
+   <div id="header">Мой новый блог</div>
+   <div id="nav">
+    <p><a href="polza.html">Статьи</a></p>
+    <p><a href="interview.html">Обучение</a></p>
+    <p><a href="ask.html">Интервью</a></p>
+   </div>
+   <div id="aside">
+    <h3>Мотивахи</h3>
+    <p>Полюби мир!</p>
+    <p>Проживи каждую минуту!</p>
+    <p>Жизнь прекрана, даже если код не работает!</p>
+   </div> 
+   <div id="content"> 
+   <h2>Стоит о чем-то написать</h2>
+    <ul>
+     <li>Тулула-тулулула</li>
+     <li>Тру-ту-ту-ту-ту</li>
+     <li>Пишу...пишу...о чем не знаю...</li>
+     <li>О, божья коровка на окне...</li>
+     <li>А я на море))</li>
+     <li>Франция – это город;</li>
+    </ul>
+   </div>
+   <div id="footer">&copy; Инна Качур</div>
+  </div>
+ </body>
+</html>
